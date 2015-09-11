@@ -1,0 +1,103 @@
+.main-container {
+  height: 100%;
+  padding-bottom: 250px;
+}
+
+body {
+  background: #ECEFF1;
+}
+
+.content-container {
+  margin-top: 70px;
+  padding-top: 0px;
+  padding-bottom: 150px;
+  background: white;
+  height: 100%;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.33);
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.33);
+}
+
+p, ul li, ol li, ol li a {
+  font-size: 16px;
+  line-height: 1.7em;
+  font-family: 'Merriweather', serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  line-height: 1.5em;
+  font-size: 32px;
+  font-weight: 700;
+  color: #A12021;
+}
+
+h2 {
+  line-height: 1.5em;
+  font-size: 28px;
+  font-weight: 600;
+  color: #A12021;
+}
+
+h3 {
+  line-height: 1.5em;
+  font-size: 24px;
+  font-weight: 600;
+  color: #424242;
+}
+
+h4 {
+  line-height: 1.5em;
+  font-size: 20px;
+  font-weight: 600;
+  color: #3c6583;
+}
+
+h1.title {
+  color: #3c6583;
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.navbar li, ul, a {
+  font-family: sans-serif;
+}
+
+.headline h1, h2, h3, h4 {
+  line-height: 1em;
+}
+
+.headline h2 {
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.headline h3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: .7em;
+}
+
+.bx-wrapper, .bx-viewport {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 0;
+  width: 100%;
+  background: #fff;
+  height: 500px !important;
+}
+
+.bx-wrapper li, .bx-viewport li {
+  padding: 0px;
+  margin: 0px;
+}
+
+.bx-wrapper .bx-viewport {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}

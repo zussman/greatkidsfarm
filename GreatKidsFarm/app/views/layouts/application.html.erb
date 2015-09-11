@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GreatKidsFarm</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,700,300italic,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container-fluid main-container">
+  <%= render 'navbar' %>
+  <div class="container content-container">
+    <div class="row">
+      <%= image_tag("Great_Kids_Farm.jpg", class: "img-responsive head-image") %>
+      <div class="col-md-10 col-md-offset-1">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
