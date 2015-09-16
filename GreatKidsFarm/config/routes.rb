@@ -1,4 +1,32 @@
 Rails.application.routes.draw do
+  get 'proposals/index'
+
+  get 'proposals/show'
+
+  get 'proposals/new'
+
+  get 'proposals/create'
+
+  get 'proposals/update'
+
+  get 'proposals/edit'
+
+  get 'proposals/destroy'
+
+  get 'projects/index'
+
+  get 'projects/show'
+
+  get 'projects/new'
+
+  get 'projects/create'
+
+  get 'projects/update'
+
+  get 'projects/edit'
+
+  get 'projects/destroy'
+
   resources :reports
   get 'report/index'
   get 'report/download'
