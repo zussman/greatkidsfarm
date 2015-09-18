@@ -1,1 +1,5 @@
-<p>all your images are belongs to us</p>
+<ul class="bxslider">
+   <% @images.each do |image| %>
+   <%= image_tag "slider/#{image.split('/').last}" %>
+ <% end %>
+</ul>

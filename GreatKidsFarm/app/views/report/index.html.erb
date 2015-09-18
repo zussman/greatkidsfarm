@@ -6,14 +6,10 @@
   <h3>September 10, 2015</h3>
 </div>
 
-<%= render 'acknowledgement' %>
-<%= render 'executive_summary' %>
 <a name="images"></a><h1>Images</h1>
 <ul class="bxslider">
    <% @images.each do |image| %>
    <%= image_tag "slider/#{image.split('/').last}" %>
  <% end %>
 </ul>
-<%= render 'recommended_improvements' %>
-<%= render 'estimated_costs' %>
 <%= render 'demonstration_projects' %>

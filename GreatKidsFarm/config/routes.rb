@@ -1,36 +1,14 @@
 Rails.application.routes.draw do
-  get 'proposals/index'
 
-  get 'proposals/show'
-
-  get 'proposals/new'
-
-  get 'proposals/create'
-
-  get 'proposals/update'
-
-  get 'proposals/edit'
-
-  get 'proposals/destroy'
-
-  get 'projects/index'
-
-  get 'projects/show'
-
-  get 'projects/new'
-
-  get 'projects/create'
-
-  get 'projects/update'
-
-  get 'projects/edit'
-
-  get 'projects/destroy'
-
-  resources :reports
+  resources :reports, :projects
   get 'report/index'
   get 'report/download'
   get 'report/images'
+  get 'report/acknowledgement'
+  get 'report/overview'
+  get 'report/farm_wide'
+  get 'report/greenhouse_3'
+  get 'report/estimated_costs'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

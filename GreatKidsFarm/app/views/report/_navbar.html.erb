@@ -14,17 +14,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#acknowledgements">Acknowledgements<span class="sr-only">(current)</span></a></li>
-        <li><a href="#overview">Overview</a></li>
-        <li><a href="#images">Images</a></li>
+        <li><%= link_to "Acknowledgements", report_acknowledgement_path %></li>
+        <li><%= link_to "Overview", report_overview_path %></li>
+        <li><%= link_to "Images", report_images_path %></li>
         <li class="dropdown">
           <a href="#recommendations" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recommendations<span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="#part-1">Part 1: Farm-wide</a></li>
-            <li><a href="#part-2">Part 2: Greenhouse 3</a></li>
+            <li><%= link_to "Part 1: Farm-wide", report_farm_wide_path %></li>
+            <li><%= link_to "Part 2: Greenhouse 3", report_greenhouse_3_path %></li>
           </ul>
         </li>
-        <li><a href="#estimated-costs">Est. Costs</a></li>
+        <li><%= link_to "Estimated Costs", report_estimated_costs_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
