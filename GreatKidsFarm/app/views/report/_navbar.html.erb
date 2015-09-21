@@ -24,7 +24,15 @@
             <li><%= link_to "Part 2: Greenhouse 3", report_greenhouse_3_path %></li>
           </ul>
         </li>
-        <li><%= link_to "Estimated Costs", report_estimated_costs_path %></li>
+        <li class="nav navbar-nav">
+          <a href="#Estimated Costs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Estimated Costs<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><%= link_to "Greenhouse 1", report_greenhouse_1_costs_path %></li>
+            <li><%= link_to "Greenhouse 2", report_greenhouse_2_costs_path %></li>
+            <li><%= link_to "Greenhouse 3", report_greenhouse_3_costs_path %></li>
+            <li><%= link_to "Total", report_total_costs_path %></li>
+          </ul>
+        </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">

@@ -9,6 +9,11 @@ Rails.application.routes.draw do
   get 'report/farm_wide'
   get 'report/greenhouse_3'
   get 'report/estimated_costs'
+  get 'report/greenhouse_1_costs'
+  get 'report/greenhouse_2_costs'
+  get 'report/greenhouse_3_costs'
+  get 'report/total_costs'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
