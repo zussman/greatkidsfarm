@@ -81,6 +81,12 @@ h1.title {
   line-height: .7em;
 }
 
+.line-item {
+  background: #3c6583;
+  color: white;
+}
+
+/*
 .bx-wrapper, .bx-viewport {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
@@ -101,3 +107,4 @@ h1.title {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
+*/

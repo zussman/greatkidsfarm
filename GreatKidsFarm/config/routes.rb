@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :reports, :projects
+  resources :reports, :projects, :galleries
   get 'report/index'
   get 'report/download'
   get 'report/images'

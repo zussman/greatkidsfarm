@@ -1,0 +1,8 @@
+<h1>Gallery</h1>
+</br>
+
+<ul id="bxslider">
+  <% @galleries.each do |picture| %>
+    <%= image_tag (picture.image.url), title: picture.caption %>
+  <% end %>
+</ul>

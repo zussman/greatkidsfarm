@@ -22,6 +22,9 @@ Rails.application.configure do
   # Raise an error on page load if there are pending migrations.
   config.active_record.migration_error = :page_load
 
+  # Tell paperclip where to look for ImageMagick
+  Paperclip.options[:command_path] = "/usr/local/bin/identify"
+
   # Precompile additional assets.
   # application.js, application.css, and all non-JS/CSS in app/assets folder are already added.
   config.assets.precompile += %w( bx_loader.gif controls.png )
