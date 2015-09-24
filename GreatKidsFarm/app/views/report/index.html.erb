@@ -5,11 +5,3 @@
   <a name="acknowledgements"></a><h3>Created by Jim Conlon CPHC, LEED Green Rater</h3>
   <h3>September 10, 2015</h3>
 </div>
-
-<a name="images"></a><h1>Images</h1>
-<ul class="bxslider">
-   <% @images.each do |image| %>
-   <%= image_tag "slider/#{image.split('/').last}" %>
- <% end %>
-</ul>
-<%= render 'demonstration_projects' %>

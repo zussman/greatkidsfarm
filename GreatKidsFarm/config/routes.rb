@@ -13,13 +13,14 @@ Rails.application.routes.draw do
   get 'report/greenhouse_2_costs'
   get 'report/greenhouse_3_costs'
   get 'report/total_costs'
-
+  get 'report/demonstration_projects'
+  get 'report/calculations'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
-  root 'report#index'
+  root 'report#overview'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

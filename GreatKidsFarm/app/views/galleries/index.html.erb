@@ -1,8 +1,12 @@
 <h1>Gallery</h1>
 </br>
 
-<ul id="bxslider">
-  <% @galleries.each do |picture| %>
-    <%= image_tag (picture.image.url), title: picture.caption %>
-  <% end %>
-</ul>
+<script>
+  Galleria.run('.galleria')
+</script>
+
+<div class="galleria">
+    <% @galleries.each do |picture| %>
+      <%= image_tag (picture.image.url), title: picture.caption %>
+    <% end %>
+</div>

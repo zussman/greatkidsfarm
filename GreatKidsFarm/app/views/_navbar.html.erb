@@ -30,13 +30,16 @@
             <li><%= link_to "Greenhouse 1", report_greenhouse_1_costs_path %></li>
             <li><%= link_to "Greenhouse 2", report_greenhouse_2_costs_path %></li>
             <li><%= link_to "Greenhouse 3", report_greenhouse_3_costs_path %></li>
-            <li><%= link_to "Total", report_total_costs_path %></li>
+            <!-- <li><%= link_to "Total", report_total_costs_path %></li> -->
           </ul>
         </li>
+        <li><%= link_to "Demonstration Projects", report_demonstration_projects_path %></li>
+        <li><%= link_to "Calculations", report_calculations_path %></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
-          <%= link_to 'Download Report', report_download_path %>
+          <a href="https://drive.google.com/file/d/0BzsGyq6xuL0gbG5VYlVhVFdyRzg/view?usp=sharing">Download Report</a>
+          <!-- <%= link_to 'Download Report', report_download_path %> -->
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->

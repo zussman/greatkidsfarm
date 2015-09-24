@@ -8,7 +8,7 @@ class ReportController < ApplicationController
   end
 
   def download
-    send_file 'GreatKidsFarm.pdf', type: 'application/pdf', x_sendfile: true
+    send_file 'Great_Kids_Farm-Elysian_Energy.pdf', type: 'application/pdf', x_sendfile: true
   end
 
   def images
